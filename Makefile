@@ -103,7 +103,8 @@ deploy-eth: compile-eth
 setup-eth: # Setup eth contracts
 setup-eth: compile-eth
 	cd eth && \
-	npx hardhat run --network $(NETWORK) scripts/3_setup_bridge_contracts.js
+	npx hardhat run --network $(NETWORK) scripts/3_initiate_bridge_ownership_transfer.js
+	#npx hardhat run --network $(NETWORK) scripts/3_setup_bridge_contracts.js
 
 .PHONY: decode-eth
 decode-eth: # Decode eth contract call

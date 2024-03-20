@@ -51,7 +51,7 @@ async function main() {
     [
       config.guardianIds,
       config.threshold,
-      addresses.gnosis.safe,
+      accounts[0],
       addresses.weth,
     ],
     {
