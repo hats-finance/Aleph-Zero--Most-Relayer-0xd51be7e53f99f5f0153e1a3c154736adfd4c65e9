@@ -1,3 +1,11 @@
+# Audit Competition for Aleph-Zero--Most-Relayer
+This repository is for the audit competition for the Aleph-Zero--Most-Relayer.
+To participate, submit your findings only by using the on-chain submission process on https://app.hats.finance/vulnerability .
+## How to participate
+- follow the instructions on https://app.hats.finance/
+## Good luck!
+We look forward to seeing your findings.
+* * *
 [![Built with ink!](https://raw.githubusercontent.com/paritytech/ink/master/.images/badge_flat.svg)](https://github.com/paritytech/ink)
 
 <img src="most_logo.png" alt="Most logo">
